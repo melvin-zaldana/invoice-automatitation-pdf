@@ -1,0 +1,26 @@
+{
+  "name": "calculo-automatico-pdf",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.13.0"
+  },
+  "description": "Creación automatica de factura, que se adjunta como PDF a correo del clientecle",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.1",
+    "puppeteer": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
